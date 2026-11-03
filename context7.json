@@ -1,0 +1,15 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "show-me-mr",
+  "description": "Agent skill that explains a merge request (GitHub PR, GitLab MR, or local branch) with ASD-STE100-style text, show-me-style diagrams, a Markdown explainer, an interactive HTML page, and an optional narrated Manim video.",
+  "folders": [],
+  "excludeFolders": [".show-me"],
+  "excludeFiles": ["LICENSE"],
+  "rules": [
+    "Install the skill with: npx skills add abuzarhamza/show-me-k --skill show-me-mr",
+    "Invoke it as /show-me-mr [PR/MR number | URL | branch] [text|diagram|html|video] [--post]",
+    "The skill writes outputs to .show-me/mr-{id}/ (explainer.md, index.html, explainer.mp4); add .show-me/ to .gitignore",
+    "Use gh for GitHub and glab for GitLab; without either, the skill diffs the local branch against the default branch",
+    "The skill never pushes, merges, approves, or edits the PR/MR description, and it asks before posting a comment or calling ElevenLabs"
+  ]
+}
