@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "show-me-k",
+  "owner": {
+    "name": "abuzarhamza"
+  },
+  "metadata": {
+    "description": "Skills that help humans understand what agents changed",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "show-me-mr",
+      "description": "Explain a merge request with STE-style text, diagrams, an interactive HTML explainer, and an optional narrated video",
+      "version": "0.1.0",
+      "author": { "name": "abuzarhamza" },
+      "source": "./plugins/show-me-mr",
+      "category": "productivity",
+      "keywords": ["pull-request", "merge-request", "code-review", "diagrams", "html", "video", "ste100"]
+    }
+  ]
+}

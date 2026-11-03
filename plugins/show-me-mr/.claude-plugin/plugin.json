@@ -1,0 +1,9 @@
+{
+  "name": "show-me-mr",
+  "description": "Explain a merge request with STE-style text, diagrams, an interactive HTML explainer, and an optional narrated video",
+  "version": "0.1.0",
+  "author": { "name": "abuzarhamza" },
+  "repository": "https://github.com/abuzarhamza/show-me-k",
+  "license": "MIT",
+  "keywords": ["pull-request", "merge-request", "code-review", "diagrams", "mermaid", "html", "manim", "ste100"]
+}
